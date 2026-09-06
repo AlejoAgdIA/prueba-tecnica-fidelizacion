@@ -1,0 +1,76 @@
+.contenedor-fidelidad {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-fidelidad h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.campo-formulario label {
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo-formulario input,
+.campo-formulario select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.campo-formulario input:focus,
+.campo-formulario select:focus {
+  border-color: #007bff;
+}
+
+.campo-formulario input:disabled,
+.campo-formulario select:disabled {
+  background-color: #eeeeee;
+  cursor: not-allowed;
+}
+
+.btn-registro {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-registro:hover {
+  background-color: #0056b3;
+}
+
+.mensaje-exito {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
